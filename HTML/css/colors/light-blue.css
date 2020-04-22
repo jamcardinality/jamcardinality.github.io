@@ -1,0 +1,40 @@
+/*  Theme Name: Globing | Responsive Bootstrap Landing Template
+    Author: Themesbrand
+    Version: 1.0.0
+    File Description: Main CSS file of the template
+*/
+
+.text-custom,
+.navbar-light .navbar-nav li a:hover,
+.navbar-light .navbar-nav li a:active,
+.navbar-light .navbar-nav li.active a {
+    color: #37b8df !important;
+}
+
+.bg-custom,
+.btn-custom,
+.main-slider .flex-control-paging li a.flex-active,
+.team-social li a:hover,
+.contact-border,
+.back-to-top:hover {
+    background-color: #37b8df;
+}
+
+.btn-custom,
+.registration-input-box:focus,
+.form-control:focus,.team-social li a:hover  {
+    border-color: #37b8df ;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    border-color: #30a0c1;
+    background-color: #30a0c1;
+}
