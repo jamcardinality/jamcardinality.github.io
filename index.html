@@ -182,35 +182,40 @@
     </section>  
 
     <section class="contact-bg">
-        <form class="contact" action="">
+        <form class="contact" action="https://formspree.io/f/mqkndban" method="POST">
             <div class="title">
               <h3>CONTACT</h3>
             </div>
+            <p class="mb-2">Let's get in touch. Don't hesitate and let's talk. You can also email me at <b>jamescarlcardinal@gmail.com</b>
+            </p>
             <div class="half">
               <div class="item">
                 <label for="name">NAME</label>
-                <input type="text" id = "name">
+                <input type="text" name="name" id = "name">
               </div>
               <div class="item">
                 <label for="email">EMAIL</label>
-                <input type="text" id = "email">
+                <input type="email" name="_replyto" id = "email">
               </div>
             </div>
             <div class="full">
               <label for="message">MESSAGE</label>
-              <textarea name="" id = "message"></textarea>
+              <textarea name="message" id = "message"></textarea>
             </div>
+
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             <div class="action">
               <input type="submit" value = "SEND MESSAGE">
               <input type="reset" value = "RESET">
             </div>
             <div class="icons">
-              <a href="" class = "fa fa-twitter"></a>
-              <a href="" class = "fa fa-facebook"></a>
-              <a href="" class = "fa fa-instagram"></a>
-              <a href="" class = "fa fa-github"></a>
+              <a href="https://twitter.com/jamcardinality/" class ="fab fa-twitter fa-lg"></a>
+              <a href="https://www.linkedin.com/in/jamcardinality/" class ="fab fa-linkedin fa-lg"></a>
+              <a href="https://instagram.com/jamcardinality/" class ="fab fa-instagram fa-lg"></a>
+              <a href="https://github.com/jamcardinality/" class ="fab fa-github fa-lg"></a>
             </div>
           </form>
+
     </section>
 
 
