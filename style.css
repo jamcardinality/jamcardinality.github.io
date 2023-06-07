@@ -382,6 +382,7 @@ a.btn {
 .home-section .social-media-icons {
   background-color: #131313;
   /* margin-top: 20px; */
+  padding-top: 12px;
   width: 100%;
   text-align: left;
 }
